@@ -32,21 +32,21 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-					<cloudHubDeployment>
+					<!-- <cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
-						<muleVersion>${mule.version}</muleVersion>
-						<username>${anypoint.username}</username>
-						<password>${anypoint.password}</password>
-						<applicationName>${appname}</applicationName>
-						<environment>${env}</environment>
+						<muleVersion>4.4.0</muleVersion>
+						<username>dlaxman20</username>
+						<password>Laxman@84</password>
+						<applicationName>worldtimezoneget</applicationName>
+						<environment>Sandbox</environment>
 						<objectStoreV2>true</objectStoreV2>
-						<workers>${workers}</workers>
-						<businessGroup>${business}</businessGroup>
-						<workerType>${vCore}</workerType>
+						<workers>1</workers>
+						<businessGroup>personal</businessGroup>
+						<workerType>micro</workerType>
 						<properties>
 							<key>value</key>
 						</properties>
-					</cloudHubDeployment>
+					</cloudHubDeployment> -->
 				</configuration>
 			</plugin>
 		</plugins>
